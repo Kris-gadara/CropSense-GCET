@@ -46,9 +46,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© {year} CropSense AI. All rights reserved.</p>
         <div className="legal-links">
-          <a href="#privacy">Privacy</a>
+          <a href="/privacy">Privacy</a>
           <span>•</span>
-            <a href="#terms">Terms</a>
+            <a href="/terms">Terms</a>
           <span>•</span>
           <a href="/about">About</a>
         </div>

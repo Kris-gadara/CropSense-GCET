@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../crop-logo.svg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -42,10 +43,10 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <div className="app-brand">
+        <Link to="/" className="app-brand" aria-label="Go to Home">
           <img src={logo} alt="CropSense AI Logo" className="navbar-logo" />
           <span className="app-name">CropSense AI</span>
-        </div>
+        </Link>
       </div>
     </nav>
   );
