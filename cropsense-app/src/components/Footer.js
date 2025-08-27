@@ -50,7 +50,7 @@ const Footer = () => {
           <span>•</span>
             <a href="#terms">Terms</a>
           <span>•</span>
-          <a href="#about">About</a>
+          <a href="/about">About</a>
         </div>
       </div>
     </footer>
