@@ -2,8 +2,11 @@
   padding: 3.5rem 2rem 4rem;
   max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  color: #133a18;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
 }
 
 .about-hero {
@@ -12,22 +15,27 @@
 }
 
 .about-hero h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
-  background: linear-gradient(135deg,#2E7D32,#4CAF50,#A5D6A7);
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, #00FF7F, #064E3B, #00FF7F);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 1rem;
   font-weight: 700;
-  letter-spacing: .5px;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
 }
 
 .about-hero p {
   font-size: 1.2rem;
-  color: #355d39;
+  color: #FFFFFF;
   max-width: 760px;
   margin: 0 auto;
   line-height: 1.6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 .about-grid {
@@ -38,14 +46,14 @@
 }
 
 .about-card {
-  background: linear-gradient(155deg,#ffffff,#f4fff5);
-  border: 1px solid rgba(46,125,50,0.18);
+  background: #121212;
+  border: 1px solid #064E3B;
   padding: 1.75rem 1.6rem 1.9rem;
-  border-radius: 18px;
-  box-shadow: 0 8px 28px -8px rgba(46,125,50,0.25);
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.8), 0 0 15px rgba(6, 78, 59, 0.3);
   position: relative;
   overflow: hidden;
-  transition: transform .4s ease, box-shadow .4s ease;
+  transition: transform .3s ease, box-shadow .3s ease;
 }
 
 .about-card::before {
@@ -53,17 +61,50 @@
   position: absolute;
   top: -60px; left: -60px;
   width: 160px; height: 160px;
-  background: radial-gradient(circle at center,rgba(76,175,80,0.35),rgba(76,175,80,0));
+  background: radial-gradient(circle at center, rgba(6, 78, 59, 0.4), rgba(6, 78, 59, 0));
   filter: blur(4px);
   opacity: 0.6;
 }
 
-.about-card:hover { transform: translateY(-8px); box-shadow: 0 18px 46px -12px rgba(27,94,32,0.35); }
+.about-card:hover { 
+  transform: translateY(-8px); 
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 255, 127, 0.4);
+  border-color: #00FF7F;
+}
 
-.about-card h3 { font-family: 'Poppins', sans-serif; font-size: 1.3rem; margin-bottom: .75rem; color:#1B5E20; }
-.about-card p { font-size: .95rem; line-height: 1.55; color:#355d39; }
-.about-card ul { margin: 0; padding-left: 1.1rem; }
-.about-card li { font-size: .92rem; margin-bottom: .35rem; color:#355d39; }
+.about-card h3 { 
+  font-family: 'Dancing Script', cursive; 
+  font-size: 1.5rem; 
+  margin-bottom: .75rem; 
+  background: linear-gradient(135deg, #00FF7F, #064E3B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 1.3;
+}
+.about-card p { 
+  font-size: 1rem; 
+  line-height: 1.6; 
+  color: #FFFFFF;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+.about-card ul { 
+  margin: 0; 
+  padding-left: 1.1rem; 
+}
+.about-card li { 
+  font-size: 0.95rem; 
+  margin-bottom: .35rem; 
+  color: #FFFFFF;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+}
 
 .about-values { margin-bottom: 4.5rem; text-align: center; }
 .about-values h2 { font-family: 'Poppins', sans-serif; font-size: 2.2rem; margin-bottom: 2.2rem; background: linear-gradient(135deg,#1B5E20,#4CAF50); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
